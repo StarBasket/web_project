@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #005ac6;
+    height: 85px;
+}
+
+header >
+img{
+    height:31px;
+    margin: 25px 30px 0 0;
+}
+
+header >
+input{
+    background-color: #004aa6;
+    font-size: 15px;
+    color: white;
+    height: 34px;
+    width: 350px;
+    border-radius: 7.5px;
+    padding-left: 7.5px;
+    margin: 22.5px 5px 0 0;
+    border: 2px solid transparent;
+    
+}
+::placeholder{
+    color: #C6DEFD;
+}
+input[type="text"]{
+    -webkit-appearance: none;
+}
+
+
+/* Header containers */
+
+.search-container{
+    padding-top: 15px;
+}
+
+/* Store */
+
+
+    .store-container{
+        display: flex;
+        align-items: center;
+        background-color: #2975cf;
+        font-size: 12px;
+        border-radius: 10px; 
+
+        margin: 20px 0 auto 20px;
+        width: 200px;
+        height: 45px;
+    }
+
+    .vinny-owo{
+        max-height: 70%;
+        margin: 0 10px 0 15px;
+    }
+
+    .first-box-text{
+        font-size: 15px;
+    }
+
+    .second-box-text{
+        font-size: 11px;
+    }
+
+    .three-dots{
+        max-height: 50%;
+        margin-left: 8px;
+    }
+
+/* Sign in button */
+
+    .store-container{
+        display: flex;
+        align-items: center;
+
+        background-color: #1467cb;
+        color: #ffffff;
+        font-size: 12px;
+        border-radius: 10px; 
+
+        margin: 20px 0 auto 20px;
+        width: 200px;
+        height: 45px;
+    }
+
+    .vinny-owo2{
+        max-height: 70%;
+        margin: 0 10px 0 15px;
+    }
+
+    .third-box-text{
+        font-size: 15px;
+    }
+
+    .fourth-box-text{
+        font-size: 11px;
+    }
+
+    .three-dots2{
+        max-height: 50%;
+        margin-left: 33px;
+    }
+
+
+
+
+/* Cart */
+
+#cart{
+    display: flex;
+    align-items: center;
+
+    background-color: #1467cb;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 10px; 
+
+    margin: 20px 0 auto 20px;
+    width: 75px;
+    height: 45px;
+    
+}
+#cart img{
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/* Nav bar */
+
+.top-nav{
+    background-color: #003371;
+    height: 51px;
+
+  
+}
+
+.top-nav-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.top-nav-2 > a{
+    display:  inline-block;
+
+    font-size: 15px;
+    text-decoration: none;
+    color: #addeeb;
+    border-left: 10px;
+    border-right: 1px solid #00295b;
+    
+
+}
+
+
+/* Make vinny into carasoul */
+.carousel-content{
+    
+}
