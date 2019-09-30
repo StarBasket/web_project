@@ -119,9 +119,26 @@ input[type="text"]{
         margin-left: 33px;
     }
 
+    .nav-boxes{
+        display: flex;
+        flex-direction: row;
+    }
+    @media (max-width: 960px) {
+        .responsive-1{
+            font-size: 0.5rem;
+        }
+      }
+    @media (max-width: 960px) {
+        .responsive-2{
+            font-size: 0.3rem;
+        }
+      }
 
-
-
+      @media (max-width: 960px){
+        .nav-boxes{
+            display: none;
+          }
+      }
 /* Cart */
 
 #cart{
@@ -182,3 +199,29 @@ input[type="text"]{
 .carousel-content{
     
 }
+
+
+
+/* Styles */
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+
